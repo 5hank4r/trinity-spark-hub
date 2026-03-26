@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Search, BadgeCheck, XCircle, Download, Facebook, Twitter, Linkedin, Share2 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { generateCertificatePDF } from "@/lib/generateCertificate";
 
 // Demo certificates for demonstration
 const demoCertificates: Record<string, {
