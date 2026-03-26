@@ -136,7 +136,10 @@ const VerifyCertificate = () => {
 
               {/* Actions */}
               <div className="border-t border-border pt-6 space-y-4">
-                <button className="w-full flex items-center justify-center gap-2 bg-primary text-primary-foreground py-3 rounded-lg font-display text-xs font-semibold tracking-wider hover:bg-primary/90 transition-all">
+              <button
+                  onClick={() => certData && generateCertificatePDF(certData)}
+                  className="w-full flex items-center justify-center gap-2 bg-primary text-primary-foreground py-3 rounded-lg font-display text-xs font-semibold tracking-wider hover:bg-primary/90 transition-all box-glow-strong"
+                >
                   <Download className="w-4 h-4" />
                   DOWNLOAD CERTIFICATE (PDF)
                 </button>
