@@ -89,6 +89,7 @@ const ContactSection = () => {
                 <option>Graphic Design</option>
                 <option>Networking & IT Support</option>
                 <option>Freelancing & Remote Work</option>
+                <option>Other</option>
               </select>
               <textarea
                 rows={3}
