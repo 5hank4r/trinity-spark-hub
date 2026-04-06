@@ -3,10 +3,10 @@ import { useEffect, useRef, useState } from "react";
 import { GraduationCap, BookOpen, Trophy, Users } from "lucide-react";
 
 const stats = [
-  { icon: GraduationCap, value: 500, suffix: "+", label: "Students Trained" },
+  { icon: GraduationCap, value: 104, suffix: "+", label: "Students Trained" },
   { icon: BookOpen, value: 10, suffix: "+", label: "Courses Available" },
   { icon: Trophy, value: 95, suffix: "%", label: "Success Rate" },
-  { icon: Users, value: 15, suffix: "+", label: "Expert Instructors" },
+  { icon: Users, value: 10, suffix: "+", label: "Expert Instructors" },
 ];
 
 const AnimatedNumber = ({ value, suffix }: { value: number; suffix: string }) => {
