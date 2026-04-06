@@ -27,7 +27,7 @@ const ContactSection = () => {
           >
             {[
               { icon: MapPin, label: "Visit Us", value: "Machapokhari Shopping Center, 2nd Floor, Kathmandu" },
-              { icon: Phone, label: "Call Us", value: "+977-01-XXXXXXX" },
+              { icon: Phone, label: "Call Us", value: "+977 980-3103604" },
               { icon: Mail, label: "Email", value: "info@trinitytech.com.np" },
               { icon: Clock, label: "Hours", value: "Sun-Fri: 7:00 AM - 6:00 PM" },
             ].map((item, i) => (
